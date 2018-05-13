@@ -1,7 +1,7 @@
 /*改变元素的颜色*/
 function change(){
     for(var i= 1;i<10;i++){
-        document.getElementById(i).style.background = "rgb(255 193 37)";
+        document.getElementById(i).style.background = "#FFC125";
     }
     var m = new Array(3);
     for (var i=0;i<3;i++) {
@@ -33,7 +33,7 @@ function start(){
 function end(){
     clearInterval(str);//清除定时器
     for(var i= 1;i<10;i++){
-        document.getElementById(i).style.background = "rgb(255 193 37)";
+        document.getElementById(i).style.background = "#FFC125";
     }
 }
 
